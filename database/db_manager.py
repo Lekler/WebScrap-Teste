@@ -2,7 +2,7 @@ import os
 import pandas as pd
 from sqlalchemy import create_engine, Column, String, Integer, Float, MetaData, Table, text
 
-from Teste import config
+import config
 
 
 def get_engine():

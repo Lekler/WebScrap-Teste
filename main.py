@@ -6,15 +6,15 @@ current_dir = Path(__file__).resolve().parent
 sys.path.append(str(current_dir))
 
 
-from Teste.utils import find_and_download_anexos, compress_files
-from Teste.utils import process_anexo_i
-from Teste.database.db_manager import save_to_database
+from utils import find_and_download_anexos, compress_files
+from utils import process_anexo_i
+from database.db_manager import save_to_database
 
 # Configuração de logging
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     handlers=[
-                        logging.FileHandler("../app.log"),
+                        logging.FileHandler("app.log"),
                         logging.StreamHandler()
                     ])
 

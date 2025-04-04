@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy.orm import sessionmaker
 import logging
 
-from Teste.database.models import setup_database, RolProcedimento
+from database.models import setup_database, RolProcedimento
 
 logger = logging.getLogger(__name__)
 

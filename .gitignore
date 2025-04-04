@@ -15,7 +15,7 @@ __pycache__/
 build/
 develop-eggs/
 dist/
-Teste/downloads/
+downloads/
 eggs/
 .eggs/
 lib/
@@ -40,8 +40,8 @@ coverage.xml
 .hypothesis/
 
 # Arquivos do projeto
-Teste/downloads/
-Teste/output/
+downloads/
+output/
 *.log
 *.db
 *.sqlite3

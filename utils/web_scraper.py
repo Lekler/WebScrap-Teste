@@ -11,7 +11,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import logging
 import zipfile
 
-from Teste.config.settings import SITE_URL, DOWNLOADS_DIR, ANEXO_I_PATTERN, ANEXO_II_PATTERN, ANEXO_I_NAME, ANEXO_II_NAME, \
+from config.settings import SITE_URL, DOWNLOADS_DIR, ANEXO_I_PATTERN, ANEXO_II_PATTERN, ANEXO_I_NAME, ANEXO_II_NAME, \
     ANEXOS_ZIP, OUTPUT_DIR
 
 # Configuração de logging

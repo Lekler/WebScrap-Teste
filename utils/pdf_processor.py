@@ -6,7 +6,7 @@ import zipfile
 from docling.document_converter import DocumentConverter
 from docling_core.types.doc import TableItem, DocItemLabel
 
-from Teste.config.settings import OUTPUT_DIR, OUTPUT_CSV, OUTPUT_ZIP, ABBREVIATIONS
+from config.settings import OUTPUT_DIR, OUTPUT_CSV, OUTPUT_ZIP, ABBREVIATIONS
 
 # Configuração de logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
